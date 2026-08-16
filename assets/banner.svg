@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="200" fill="url(#grad1)" rx="15" ry="15"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" filter="url(#glow)">Awesome Wealth Management</text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#d0d0d0">Curated Tools &amp; Platforms for Modern RIAs</text>
+  <circle cx="100" cy="100" r="40" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.2">
+    <animate attributeName="r" values="40; 60; 40" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2; 0; 0.2" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="700" cy="100" r="40" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.2">
+    <animate attributeName="r" values="40; 60; 40" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2; 0; 0.2" dur="4s" repeatCount="indefinite" />
+  </circle>
+</svg>
