@@ -65,16 +65,6 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
   Open-source finance and wealth management platform for tracking investments, generating reports and dashboards.
 - **[Wealthbot](https://github.com/wealthbot-io/wealthbot)** [![GitHub stars](https://img.shields.io/github/stars/wealthbot-io/wealthbot?style=social&color=white)](https://github.com/wealthbot-io/wealthbot/stargazers)  
   Open-source wealth management platform designed to help advisors serve clients, build robo-advisor capabilities.
-- **Portfolio Analysis Platforms** (e.g., Pinnacle and similar projects)  
-  Open-source systems for portfolio CRUD, performance analysis, stock research, and optimization recommendations.
-- **Advisor Desktop / Workstation Prototypes**  
-  Open-source or prototype AI-native advisor workstations that demonstrate modern portfolio, client, compliance workflows.
-- **Robo-Advisory & Portfolio Generation Projects**  
-  Open-source implementations of mean-variance optimization, Black-Litterman, risk-based portfolio construction, and paper-trading simulation.
-- **Personal & Multi-Broker Portfolio Trackers**  
-  Community projects focused on aggregating holdings, calculating returns (TWR/MWR), and providing private, self-hosted dashboards.
-- **Investment Portfolio Rails / Full-Stack Trackers**  
-  Various open-source applications for multi-asset portfolio tracking with market data integration and AI-assisted insights.
 
 ### ➕ Additional Strong Open-Source Options
 - Market data and pricing libraries that feed portfolio systems.
